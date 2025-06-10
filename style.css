@@ -4,7 +4,7 @@ body {
     padding: 20px;
 }
 
-#sudoku-board {
+#board {
     display: grid;
     grid-template-columns: repeat(9, 40px);
     gap: 2px;
