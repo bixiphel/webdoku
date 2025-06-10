@@ -1,0 +1,54 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 600px;
+}
+
+#errors {
+    color: coral;
+}
+
+#board {
+    width: 540px;
+    height: 540px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 56px;
+    height: 56px;
+    border: 2px solid grey;
+
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#digits {
+    width: 540px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    width: 52px;
+    height: 52px;
+    border: 2px solid black;
+    margin: 2px;
+
+    font-size: 40px;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
